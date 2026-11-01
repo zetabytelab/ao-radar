@@ -1,5 +1,7 @@
 # AO Radar / fAO
 
+**[Open the public live demo](https://ao-radar-bice.vercel.app)** — no login required.
+
 **fAO fishes AOs.** Explore lean agent-operated organisations, inspect what the evidence supports, and borrow an experiment for your next company.
 
 Built during DevDay Exchange Community Hackathon, London, 1 November 2026. Core journey: **12 seeds → four Decisions assessments → searchable logo mosaic → evidence inspector → JSON export**.
@@ -35,7 +37,7 @@ No revenue-per-person ranking: the seed lacks comparable dated financial/headcou
 
 ## Verification
 
-All 12 local server-route requests returned valid live `gpt-6-luna` assessments on 1 November 2026. No fallback was used. Sparse seed notes produced Unknown for most autonomy/buyer answers and all evidence grades. This is a data limitation, not an API failure.
+All 12 local and all 12 public production server-route requests returned valid live `gpt-6-luna` assessments on 1 November 2026. No fallback was used. Sparse seed notes produced Unknown for most autonomy/buyer answers and all evidence grades. This is a data limitation, not an API failure.
 
 Run `node scripts/check-live.mjs https://YOUR-DEMO-HOST` to repeat the 12-company check. This incurs 12 API requests on a cold cache; output contains grades only. Results are written to `/tmp/ao-radar-live-check.json`.
 
@@ -51,9 +53,9 @@ Run `node scripts/check-live.mjs https://YOUR-DEMO-HOST` to repeat the 12-compan
 
 Deploy as a standard Next.js Node application. Set `OPENAI_API_KEY` in the host's encrypted server environment. Without it the public sample journey remains available. Verify the deployed link in a signed-out browser and ensure deployment protection is disabled for judges. Never put a secret in `NEXT_PUBLIC_*`, screenshots, exports or the video.
 
-Public source: [zetabytelab/ao-radar](https://github.com/zetabytelab/ao-radar). Production deployment is configured in the ZetaFlow Vercel project `ao-radar`. This repository contains only the app, not the parent planning pack. `.env.example` is included; `.env.local`, `.next`, `node_modules` and `.vercel` are excluded.
+Public source: [zetabytelab/ao-radar](https://github.com/zetabytelab/ao-radar). Production: [ao-radar-bice.vercel.app](https://ao-radar-bice.vercel.app), hosted in the ZetaFlow Vercel project `ao-radar`. This repository contains only the app, not the parent planning pack. `.env.example` is included; `.env.local`, `.next`, `node_modules` and `.vercel` are excluded.
 
-Freeze features by **15:30 London**, record by **16:15**, verify public links and submit by **16:40**, leaving 20 minutes before the event's 17:00 close. All 12 local live Decisions calls passed on 1 November 2026. Do not add extraction or QR until the public deployment also passes.
+Freeze features by **15:30 London**, record by **16:15**, verify public links and submit by **16:40**, leaving 20 minutes before the event's 17:00 close. All 12 local live Decisions calls passed on 1 November 2026. The public deployment also passed all 12 live grades without authentication.
 
 See [DEMO.md](DEMO.md) for a <90-second walkthrough and [CODEX.md](CODEX.md) for concrete Codex contributions.
 
