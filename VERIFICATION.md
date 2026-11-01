@@ -7,3 +7,5 @@ The previous note-only run was technically valid but insufficiently useful. Adde
 ## Interactive fishing demo
 
 Desktop browser: Polsia → Agent crew → live operations claim; Hyphenate → Agent crew → product-only surprise; catch tray updates once per company. Phone at 390px: pond fits, fish are selectable, reveal controls scroll into view. Temporary viewport override reset. Prediction buttons and bulk grading cannot run concurrently. Sample/live mode switching resets the game. Production deployed at https://ao-radar-bice.vercel.app (app commit e458508). Browser verified Catch Polsia → Agent crew → real Decisions reveal, catch tray update and claim label. Public QR points to the same host /#fishing.
+
+Vivid theme: desktop and 390px phone layout visually reviewed; real Polsia catch revealed correctly with readable controls. Typography is self-hosted. Production build and lint pass.
