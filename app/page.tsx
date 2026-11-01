@@ -1,0 +1,50 @@
+'use client';
+import Link from 'next/link';
+import { useEffect, useState } from 'react';
+import { companies, dimensions, sampleGrade, type Grade, type Company } from '@/lib/radar';
+function Logo({ company }: { company: Company }) {
+  const [failed, setFailed] = useState(false);
+  return <span className="logo">{failed ? company.name.slice(0, 2).toUpperCase() : <img src={`https://www.google.com/s2/favicons?domain=${encodeURIComponent(company.domain)}&sz=128`} alt="" width="34" height="34" onError={() => setFailed(true)} />}</span>;
+}
+export default function Home() {
+  const [grades, setGrades] = useState<Record<string, Grade>>({});
+  const [errors, setErrors] = useState<Record<string, string>>({});
+  const [busy, setBusy] = useState(false);
+  const [active, setActive] = useState<string | null>(null);
+  const [selected, setSelected] = useState('1');
+  const [mode, setMode] = useState<'live' | 'sample'>('sample');
+  const [available, setAvailable] = useState(false);
+  const [query, setQuery] = useState('');
+  const [filter, setFilter] = useState('All signals');
+  const [log, setLog] = useState('12 seed signals loaded. Ready to scan.');
+  useEffect(() => { fetch('/api/grade').then(r => r.json()).then(d => { setAvailable(d.liveAvailable); if (d.liveAvailable) setMode('live'); }).catch(() => setLog('Server unavailable. Sample mode is ready.')); }, []);
+  const current = companies.find(c => c.id === selected)!;
+  const grade = grades[selected];
+  const count = Object.keys(grades).length;
+  const visible = companies.filter(c => c.name.toLowerCase().includes(query.toLowerCase()) && (filter === 'All signals' || (filter === 'Agent operations' ? ['Function autopilot', 'Cross-function ops'].includes(grades[c.id]?.values.ao) : filter === 'Solo / small teams' ? ['Solo', '2–10 people'].includes(grades[c.id]?.values.lean) : grades[c.id]?.values.ao === 'Unknown')));
+  async function scan(targets = companies) {
+    setBusy(true); setErrors({}); let failed = 0;
+    for (const c of targets) {
+      setActive(c.id); setLog(`${mode === 'live' ? 'Decisions' : 'Sample'} → assessing ${c.name}`);
+      try {
+        let result: Grade;
+        if (mode === 'sample') { await new Promise(resolve => setTimeout(resolve, 160)); result = sampleGrade(c); }
+        else { const response = await fetch('/api/grade', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ id: c.id }) }); const data = await response.json(); if (!response.ok) throw new Error(data.error); result = data.grade; }
+        setGrades(previous => ({ ...previous, [c.id]: result }));
+      } catch (error) { failed++; setErrors(previous => ({ ...previous, [c.id]: error instanceof Error ? error.message : 'Request failed' })); }
+    }
+    setActive(null); setBusy(false); setLog(failed ? `Scan finished with ${failed} error(s). Select a flagged card to retry.` : `${mode === 'live' ? 'Live' : 'Sample'} scan finished. Inspect a signal to see its evidence.`);
+  }
+  function exportResults() { const blob = new Blob([JSON.stringify({ exportedAt: new Date().toISOString(), disclaimer: 'Provisional assessments of unverified seed notes; not independently verified.', companies: companies.map(c => ({ ...c, assessment: grades[c.id] || null })) }, null, 2)], { type: 'application/json' }); const url = URL.createObjectURL(blob); const a = document.createElement('a'); a.href = url; a.download = 'ao-radar.json'; a.click(); URL.revokeObjectURL(url); }
+  return <main>
+    <header><Link className="brand" href="/">◎ <strong>AO RADAR</strong><span className="version">/ FIELD NOTES 001</span></Link><div className="header-right"><span className="status-dot" /> LONDON · 01 NOV 2026 <a href="https://www.autopilotindex.com" target="_blank" rel="noreferrer">AUTOPILOT INDEX ↗</a></div></header>
+    <section className="hero"><div><div className="eyebrow">fAO / FISH FOR AUTONOMOUS ORGANISATIONS</div><h1>Small teams.<br /><span>Outsized possibility.</span></h1><p>Find the organisations putting agents to work.<br />Inspect the evidence. Borrow a pattern. Build your next experiment.</p><div className="aspirations"><span>YOUR NEXT</span> $1M <i>→</i> $10M <i>→</i> $100M <i>→</i> $1B <span>ARR?</span></div></div><div className="radar-art" aria-hidden="true"><div className="cross horizontal"/><div className="cross vertical"/><div className="orbit one"/><div className="orbit two"/><div className="orbit three"/><div className="sweep"/><b className="blip b1"/><b className="blip b2"/><b className="blip b3"/><span className="radar-caption">SCANNING THE POSSIBLE<br />51.5072° N · 0.1276° W</span></div></section>
+    <section className="console" aria-label="Radar controls"><div className="console-title"><span className="status-dot"/> RADAR CONTROL <span>01 LOAD → 02 GRADE → 03 EXPLORE</span></div><div className="control-row"><div><strong>12 organisations. Four lenses.</strong><p>Agent operations · team size · buyer · evidence</p></div><div className="actions"><select aria-label="Grading mode" value={mode} disabled={busy} onChange={e => { setMode(e.target.value as 'live' | 'sample'); setGrades({}); setErrors({}); }}><option value="sample">Sample mode</option><option value="live">Live · Decisions API{!available ? ' (key needed)' : ''}</option></select><button className="primary" disabled={busy} onClick={() => scan()}>{busy ? `Scanning ${count}/12…` : '↗ Grade all 12'}</button></div></div><div className="terminal" role="status"><span>›</span> {log}<span className="cursor">▌</span></div></section>
+    <div className="section-heading"><h2>The radar <span>{count}/12 assessed</span></h2><button className="text-button" disabled={!count} onClick={exportResults}>Export JSON ↓</button></div>
+    <div className="notice">{mode === 'sample' ? 'SAMPLE MODE — illustrative, hand-authored assessments. No API call is made.' : 'LIVE MODE — gpt-6-luna assesses supplied notes. Model confidence is not factual verification.'} All seed notes are unverified and undated.</div>
+    <div className="filters"><div className="tabs">{['All signals', 'Agent operations', 'Solo / small teams', 'Unknown autonomy'].map(f => <button key={f} className={filter === f ? 'chosen' : ''} onClick={() => setFilter(f)}>{f}</button>)}</div><input aria-label="Search companies" placeholder="Search the radar…" value={query} onChange={e => setQuery(e.target.value)}/></div>
+    <div className="workspace"><section className="mosaic" aria-label="Company mosaic">{visible.map((c, index) => { const g = grades[c.id]; return <button className={`company ${selected === c.id ? 'selected' : ''} ${active === c.id ? 'scanning' : ''}`} key={c.id} onClick={() => setSelected(c.id)} aria-pressed={selected === c.id}><div className="card-top"><Logo company={c}/><span className="number">{String(index + 1).padStart(2, '0')} ↗</span></div><h3>{c.name}</h3><span className="domain">{c.domain}</span><div className={`signal ${g && g.values.ao !== 'Unknown' && g.values.ao !== 'Product only' ? 'positive' : ''}`}>{errors[c.id] ? '↻ Retry needed' : g?.values.ao || 'Awaiting assessment'}</div><div className="card-bottom"><span>{g?.values.lean || '—'}</span><span>{g ? g.values.evidence : 'Unassessed'}</span></div></button>; })}{!visible.length && <p className="empty">No signals match. Try another filter or grade the seeds first.</p>}</section>
+    <aside className="inspector"><div className="eyebrow">SIGNAL INSPECTOR / {String(Number(selected) + 1).padStart(2, '0')}</div><div className="detail-title"><Logo key={current.id} company={current}/><h2>{current.name}</h2></div><a className="external" href={current.url} target="_blank" rel="noreferrer">Visit company website ↗</a><div className="rule"/><div className="eyebrow">SUPPLIED SEED NOTE · UNVERIFIED</div><p className="note">{current.note}</p><p className="small">Headcount claim: {current.headcount} · Date unknown</p><div className="scores">{dimensions.map(d => <div key={d}><span>{({ ao: 'Agent operations', lean: 'Team size', buyer: 'Buyer', evidence: 'Evidence' })[d]}</span><strong>{grade?.values[d] || 'Not assessed'}</strong>{grade?.mode === 'live' && <small>Model confidence {Math.round(grade.confidence[d] * 100)}%</small>}</div>)}</div><div className="learning"><div className="eyebrow">EXPERIMENT TO BORROW</div><p>{grade?.values.ao === 'Cross-function ops' ? 'Connect two agent-run functions. Track every human hand-off for a week.' : grade?.values.ao === 'Function autopilot' ? 'Give an agent one complete function. Measure interventions, cost and customer outcomes.' : 'Map one recurring operation. Separate human decisions from tasks an agent could execute.'}</p></div><p className="small">Provisional assessment. Read the source and ask what agents actually execute. Revenue claims and prior seed grades are excluded from grading.</p>{grade && <p className="small">{grade.mode === 'sample' ? 'Illustrative sample' : 'OpenAI Decisions · gpt-6-luna'} · {new Date(grade.at).toLocaleTimeString('en-GB')}</p>}{errors[selected] && <p className="error" role="alert">{errors[selected]}</p>}<button className="secondary" disabled={busy} onClick={() => scan([current])}>{grade ? 'Reassess this signal ↗' : 'Assess this signal ↗'}</button></aside></div>
+    <footer><span>◎ AO RADAR <span className="muted">· We grade claims, not hype.</span></span><span>Built with Codex · DevDay London 2026</span></footer>
+  </main>;
+}

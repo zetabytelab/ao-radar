@@ -1,0 +1,9 @@
+const { test } = require('node:test');
+const assert = require('node:assert/strict');
+const { companies, dimensions, requestBody, parseGrade, sampleGrade } = require('../.test-build/radar.js');
+const answers = () => dimensions.map(name => ({ name, type: 'choice', choice: 'Unknown', confidence: 0.8 }));
+test('12 unique seeds; grading excludes old scores and revenue', () => { assert.equal(companies.length, 12); assert.equal(new Set(companies.map(c => c.id)).size, 12); const body = requestBody(companies[1]); assert.equal(body.model, 'gpt-6-luna'); assert.equal(body.questions.length, 4); assert.ok(!body.input.includes('10000000')); assert.ok(!body.input.includes('demo_role')); });
+test('answers mapped by name regardless of order', () => { const grade = parseGrade({ answers: answers().reverse() }); assert.equal(grade.mode, 'live'); assert.equal(grade.values.ao, 'Unknown'); });
+test('missing, duplicate, invented and invalid confidence answers fail closed', () => { assert.throws(() => parseGrade({ answers: [] })); assert.throws(() => parseGrade({ answers: [...answers(), answers()[0]] })); for (const patch of [{ choice: 'Verified autonomous' }, { confidence: 2 }, { confidence: NaN }]) { const a = answers(); Object.assign(a[0], patch); assert.throws(() => parseGrade({ answers: a })); } });
+test('refusals stay unknown', () => { const a = answers(); a[0] = { name: 'ao', type: 'refusal' }; assert.equal(parseGrade({ answers: a }).confidence.ao, 0); });
+test('sample clearly labelled and never implies verified evidence', () => { for (const c of companies) { const g = sampleGrade(c); assert.equal(g.mode, 'sample'); assert.equal(g.values.evidence, 'Unknown'); } assert.equal(sampleGrade(companies[3]).values.ao, 'Product only'); });
