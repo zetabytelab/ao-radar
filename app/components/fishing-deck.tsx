@@ -19,7 +19,6 @@ export default function FishingDeck({ grades, mode, disabled, onCatch, onInspect
   function handleCast() { const pool = companies.filter(c => !grades[c.id]); const fish = pool.length ? pool : companies; hook(fish[Math.floor(Math.random() * fish.length)]); }
   async function reel(prediction: 'crew' | 'product') {
     if (!hooked || casting) return;
-    const splash = new Promise(resolve => setTimeout(resolve, 650));
     setGuess(prediction); setCasting(true); onBusy(true); setError('');
     try {
       let g = grades[hooked.id];
@@ -27,7 +26,7 @@ export default function FishingDeck({ grades, mode, disabled, onCatch, onInspect
         if (mode === 'sample') g = sampleGrade(hooked);
         else { const r = await fetch('/api/grade', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ id: hooked.id, name: hooked.name }) }); const data = await r.json(); if (!r.ok) throw Error(data.error || 'Could not reel in this catch.'); g = data.grade; }
       }
-      await splash; onCatch(hooked.id, g); setRevealed(true);
+      onCatch(hooked.id, g); setRevealed(true);
     } catch(e) { setError(e instanceof Error ? e.message : 'The line got tangled. Try again.'); }
     finally { setCasting(false); onBusy(false); }
   }

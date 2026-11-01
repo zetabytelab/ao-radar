@@ -25,3 +25,9 @@ Imported all 34 public company-profile links from Autopilot Index on 1 November 
 Local live test passed 34/34, returning 136 validated Decisions answers. Eight tests, lint and build passed. Search and Semio's withheld-website caption reviewed in Chrome. API guard rejects missing or mismatched company names before checking cache or calling OpenAI; current requests succeed. Founder-source conflict for Polsia and Basis's directory-linked page identity mismatch are shown as review notes, without silently merging identities. The public Polsia deck was rechecked and names Ben Broca; the directory names Ben Cera.
 
 Production deployment `1ca127d` is READY at https://ao-radar-bice.vercel.app. Chrome public Grade all 34 completed 34/34 with 136 returned live assessments and no captured console errors. The public wall displays all 34 matched index records, complete source-image count and source citations. Final screenshot proof is stored outside the source repository.
+
+## Typography and interaction refresh
+
+Apple-inspired layout uses native system fonts, larger display text and more legible evidence panels. Reviewed the exact apple-design skill source before applying its guidance; audit scope and hashes are in SKILL-SECURITY-REVIEW.md. Local desktop and 390 CSS-pixel phone layout reviewed; no horizontal overflow. No new dependency installed. Real 34-company grading and the existing fishing flow are preserved.
+
+After applying the reviewed skill, Chrome local Grade all 34 completed 34/34 and 136 assessments. Polsia fishing reveal completed immediately from its existing live result. A 390 CSS-pixel viewport measured page width 390 (no horizontal overflow); temporary viewport reset. Lint, production build and diff whitespace checks passed.

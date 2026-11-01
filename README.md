@@ -120,3 +120,9 @@ node --env-file=.env.local scripts/refresh-context.mjs 3 4 5
 ```
 
 The import is a dated snapshot, not an automatic sync. Directory-linked websites and founder descriptions still need identity review; a screenshot proves what that URL displayed, not that every directory assertion is current. Historical 12-company verification notes above describe earlier builds. The current verification targets 34 companies and 136 Decisions answers.
+
+## Design refresh and reviewed skill
+
+The current interface uses native system typography (San Francisco on Apple platforms), with self-hosted DM Sans as a fallback. No Apple font files are downloaded or redistributed. The gradient headline, orbital company illustration, radar mark and surfaces are original CSS. The catalogue and assessment semantics are unchanged. Controls provide immediate press feedback; the fishing reveal no longer waits for an artificial timer. Scan progress scrolls the company wall without repeatedly moving the whole page.
+
+Applied [Emil Kowalski's apple-design skill](https://github.com/emilkowalski/skills/tree/main/skills/apple-design) after a full static review of the selected, hash-verified Markdown file. No installer, bundled examples or new dependency was executed. See [SKILL-SECURITY-REVIEW.md](SKILL-SECURITY-REVIEW.md) for the exact blob, hash, findings and limits. The skill is credited as design guidance, not an Apple affiliation. Also consulted [Apple's typography guidance](https://developer.apple.com/design/human-interface-guidelines/typography). Reduced motion, reduced transparency and increased contrast preferences are supported.
