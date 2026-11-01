@@ -70,3 +70,9 @@ See [DEMO.md](DEMO.md) for a <90-second walkthrough and [CODEX.md](CODEX.md) for
 - [Codex quickstart](https://developers.openai.com/codex/quickstart).
 - [Next.js installation](https://nextjs.org/docs/app/getting-started/installation).
 - [Event and submission schedule](https://luma.com/dde-ldn-hack).
+
+## fAO fishing club
+
+The opening screen is now an interactive pond: pick a company-logo fish or cast randomly, predict agent crew versus AI product, then reveal the real Decisions assessment. Successful catches populate a local tray; the source inspector remains available below. The QR opens the same seeded experience on audience phones. Predictions and catches stay on each screen; no personal information, shared room state, new-company submissions or leaderboard is collected. Refresh resets the catch tray; JSON export preserves assessments.
+
+The three reference videos supplied by the owner were reviewed for interaction direction (progressive logo mosaics, visible progress and sorting). No footage or assets were copied. Fish, boat and water are original CSS drawings; QR rendering uses the ISC-licensed qrcode.react dependency. Motion respects the reduced-motion setting.

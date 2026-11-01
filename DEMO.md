@@ -1,15 +1,17 @@
-# 80-second demo script
+# fAO: 80-second audience demo
 
-0–12s — Show the landing screen: “If you’re building with agents, the useful question is who is already letting them do real work. AO Radar turns a small discovery list into patterns you can inspect.”
+0–10s — Open the pond and point at the QR: “Who here thinks they can spot an agent-operated company? Scan to fish along on your own phone.”
 
-12–30s — Select Live mode and click Grade all 12: “We ask OpenAI Decisions four separate questions: agent operations, lean team, buyer and evidence. Each answer has a defined set of choices and an explicit Unknown.” If live access fails, select Sample mode and say: “This is the clearly labelled sample walkthrough; it is not a live model result.” Never conceal the switch.
+10–25s — Hook Polsia. Ask the room: “Agent crew, or just an AI product?” Let hands or voices choose. Click their prediction.
 
-30–48s — Filter Agent operations. Open Polsia: “This note claims agents run operations. The inspector preserves that claim and shows uncertainty. It does not turn a founder claim into audited proof.”
+25–40s — Reel in the live Decisions result: “The source describes agent-run engineering and infrastructure. It is a company claim, visibly labelled. One founder, with the robots doing some work.” Inspect the catch to show the linked public deck.
 
-48–60s — Return to All signals and inspect Hyphenate: “Selling an agent product alone does not establish an agent-operated organisation.” Use the actual live answer rather than predicting it.
+40–55s — Hook Hyphenate, ask again, reveal: “Autonomous finance for customers does not establish that agents run the company itself.” Let an incorrect room prediction become the surprise.
 
-60–70s — Point to the experiment: “The output is something to try: connect two agent-run functions and measure the human hand-offs.” Export JSON.
+55–68s — Show the catch tray. Cast a random company. “You are collecting experiments to borrow, not a hype ranking. The model grades four separate questions against evidence.”
 
-70–80s — “Codex checked the current API docs, built the full UI and server path, caught a framework incompatibility, and tested response validation and the browser journey. fAO fishes AOs. We grade claims, not hype.”
+68–80s — “Codex built and browser-tested this whole loop, checked the Decisions docs, and caught that our first version lacked sources. fAO fishes AOs. Go catch your next experiment.”
 
-Before recording: production build, key and billing ready, one live run of all 12, no developer tools or secrets visible, public signed-out URL tested. Record only the app viewport. Aim for 80 seconds, hard stop at 90. Upload as publicly viewable/unlisted and check the video link signed out. No video has been recorded yet.
+Keep the 12-company sweep and source inspector as optional backup. The QR opens the same seeded game; catches and predictions stay on each screen. No shared audience queue or new-company submission is implemented. Use Live mode for recording; if unavailable, visibly select Sample mode and state it is illustrative.
+
+Record only the app viewport; verify no keys or developer tools are visible. Hard stop at 90 seconds. Video recording remains outstanding.
