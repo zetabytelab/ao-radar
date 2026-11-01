@@ -1,0 +1,98 @@
+[
+  {
+    "url": "https://andonlabs.com/market",
+    "title": "Andon Market operating report",
+    "summary": "Andon Labs describes its Andon Market retail experiment as run end-to-end by a persistent AI agent with cooperating agents and internal messaging. The page reports daily sales, revenue and token costs. These are operator-published claims, not audited accounts. This concerns the Market experiment, not every operation of the parent research lab.",
+    "scope": "Field experiment: Andon Market",
+    "kind": "Company-published",
+    "capturedAt": "2026-11-01"
+  },
+  {
+    "url": "https://polsia.com/deck",
+    "title": "Polsia public pitch deck",
+    "summary": "The deck says the platform has one founder and no employees. It describes agents filing bugs, engineering agents fixing them, automated feature delivery and infrastructure self-healing. It offers engineering, outreach, ads, support and payments for founders. It self-reports an annual run rate of $228,820 in an early launch snapshot; this is historical, not current revenue.",
+    "scope": "Company operations",
+    "kind": "Company-published",
+    "capturedAt": "2026-11-01"
+  },
+  {
+    "url": "https://www.nanocorp.so",
+    "title": "NanoCorp company homepage",
+    "summary": "NanoCorp offers founders agents that build software, launch payments, prospect, email customers and run ads. Its public page self-reports revenue earned by customer businesses. Those customer results do not establish how NanoCorp itself operates or its own revenue.",
+    "scope": "Company operations",
+    "kind": "Company-published",
+    "capturedAt": "2026-11-01"
+  },
+  {
+    "url": "https://hyphenate.ai",
+    "title": "Hyphenate company homepage",
+    "summary": "Hyphenate sells an autonomous finance platform to CFOs and controllers. It describes automating order-to-cash, treasury, accounting and reporting for client companies. The page does not establish agent execution inside Hyphenate itself.",
+    "scope": "Company operations",
+    "kind": "Company-published",
+    "capturedAt": "2026-11-01"
+  },
+  {
+    "url": "https://www.boardy.ai/",
+    "title": "Boardy company homepage",
+    "summary": "Boardy offers introductions to investors, customers, potential hires and jobs after both participants opt in. The site self-reports introduction counts. That demonstrates its networking service, not how the company runs its internal operations or company revenue.",
+    "scope": "Company operations",
+    "kind": "Company-published",
+    "capturedAt": "2026-11-01"
+  },
+  {
+    "url": "https://base44.com/",
+    "title": "Base44 company homepage",
+    "summary": "Base44 offers builders natural-language app, website and agent creation with backend, authentication, payments and hosting. This describes its customer product; the page does not establish autonomous internal company operations or current headcount.",
+    "scope": "Company operations",
+    "kind": "Company-published",
+    "capturedAt": "2026-11-01"
+  },
+  {
+    "url": "https://gominimal.ai/",
+    "title": "Minimal company homepage",
+    "summary": "Minimal sells AI support agents to e-commerce businesses. It describes end-to-end ticket resolution and actions across helpdesks, stores and logistics systems for customers. The page does not establish that these agents run Minimal itself.",
+    "scope": "Company operations",
+    "kind": "Company-published",
+    "capturedAt": "2026-11-01"
+  },
+  {
+    "url": "https://gamma.app/",
+    "title": "Gamma company homepage",
+    "summary": "Gamma offers an AI visual communication product for presentations, documents and websites. Its solutions target consultants, marketing, sales and educators. These are product and buyer descriptions, not proof that agents run Gamma internally.",
+    "scope": "Company operations",
+    "kind": "Company-published",
+    "capturedAt": "2026-11-01"
+  },
+  {
+    "url": "https://home.medvi.org/terms-and-conditions",
+    "title": "MEDVi service description",
+    "summary": "MEDVi describes a patient-management platform connecting individual customers with independent medical providers and coordinating administrative support. Its terms disclose that some website media may use AI. This is not evidence of agent-run internal operations.",
+    "scope": "Company operations",
+    "kind": "Company-published",
+    "capturedAt": "2026-11-01"
+  },
+  {
+    "url": "https://fathom-ai.net/about",
+    "title": "Fathom AI company description",
+    "summary": "Fathom builds AI platforms and operating systems for B2B field-sales companies, including medical-device and real-estate sales. This page describes products and buyers; it does not detail internal agent execution or current human headcount.",
+    "scope": "Company operations",
+    "kind": "Company-published",
+    "capturedAt": "2026-11-01"
+  },
+  {
+    "url": "https://www.arcads.ai/",
+    "title": "Arcads company homepage",
+    "summary": "Arcads offers AI actors and avatars for creating advertising videos. This supports a marketing-product use case. The page does not document agent execution of Arcads own internal operations or its company economics.",
+    "scope": "Company operations",
+    "kind": "Company-published",
+    "capturedAt": "2026-11-01"
+  },
+  {
+    "url": "https://moltcorporation.com/",
+    "title": "Moltcorp public operating model",
+    "summary": "Moltcorp says agents research ideas, debate, vote on proposals, perform development tasks, review submissions and launch products. Humans connect payment accounts. Its page self-reports a revenue counter, but this counter is not independently verified. A voting workflow is a claimed operating model, not proof of durable commercial autonomy.",
+    "scope": "Public agent experiment",
+    "kind": "Company-published",
+    "capturedAt": "2026-11-01"
+  }
+]

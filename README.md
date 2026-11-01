@@ -27,27 +27,27 @@ npm start
 
 ## What is real
 
-Live mode calls `POST https://api.openai.com/v1/decisions` with `gpt-6-luna` from a server route. Four named `choice` questions classify agent operations, team size, buyer and evidence. Responses are validated by question name, allowed choices and confidence range. Refusals become Unknown; errors remain visible and retryable. The API key never enters browser code. Requests are restricted to the 12 seed IDs.
+Live mode calls `POST https://api.openai.com/v1/decisions` with `gpt-6-luna` from a server route. Four named choice questions assess operations, team size, buyer and economics evidence. Answers are validated; errors remain retryable and never silently become samples. The key stays server-side.
 
-Sample mode uses explicit hand-authored fixtures, makes no model call, and is labelled in the UI and exports. It is not a recorded API response. A live request never silently falls back to samples.
+Each company now includes a public source summary, URL, capture date and assessment scope in `lib/evidence.json`. These summaries were manually reviewed during the hackathon; websites are not fetched dynamically on each grading request. The inspector and JSON export include provenance. Company statements establish **claims**, not independent verification. Andon is assessed specifically as its Market field experiment, not as the entire parent lab. MEDVi's domain was corrected to medvi.org based on its official statement.
 
-Seed notes were supplied before the event. They are unverified, undated discovery leads. We exclude legacy grades, section labels and revenue fields from model input; seed notes may still mention economic claims, visibly labelled unverified. A URL alone is not evidence: this release does not retrieve websites. Evidence grades should therefore remain Unknown until underlying source material is available. Model confidence is not factual verification. Autonomy assessments remain provisional and require human review.
+**Product only** means the supplied source describes an AI product but does not establish internal agent operation. It is not proof that the company uses no agents. Positive operations labels are explicitly marked **Claimed**. Team size still uses an undated seed claim when no better source is supplied. Economics grades apply to financial claims, not product quality; missing economics are labelled accordingly. No unsupported audited grades or revenue-per-person rankings are displayed.
 
-No revenue-per-person ranking: the seed lacks comparable dated financial/headcount sources. ARR figures in the original research are not displayed. No founder contact details or avatars are collected.
+Sample mode is hand-authored, illustrative and labelled. It makes no model call. It is not a recording of live model outputs.
 
-## Verification
+## Verification and limits
 
-All 12 local and all 12 public production server-route requests returned valid live `gpt-6-luna` assessments on 1 November 2026. No fallback was used. Sparse seed notes produced Unknown for most autonomy/buyer answers and all evidence grades. This is a data limitation, not an API failure.
+The original note-only run produced mostly Unknown results. After adding source summaries, the 1 November local live run returned 3 cross-function operations claims, 9 product descriptions, and 9 documented buyer classifications. Polsia's historical pitch-deck economics were classified D (claim only). All 12 requests passed. These are assessments of the supplied evidence, not independent company audits.
 
-Run `node scripts/check-live.mjs https://YOUR-DEMO-HOST` to repeat the 12-company check. This incurs 12 API requests on a cold cache; output contains grades only. Results are written to `/tmp/ao-radar-live-check.json`.
+```sh
+node scripts/check-live.mjs https://ao-radar-bice.vercel.app
+```
 
-## Scope and limits
+This repeats all 12 live API requests (charges apply on a cold cache). Results go to `/tmp/ao-radar-live-check.json`. Six unit tests cover response validation and source provenance; lint and production build are also checked.
 
-- Implemented: seeded journey, server-side Decisions integration, sample walkthrough, search/filters, logo fallback, inspector, retry and JSON export.
-- Deferred: directory extraction, founder avatars, QR submission and durable shared storage.
-- Decisions supports predicates, choices and scores. Arbitrary entity extraction would use Responses structured outputs, not an invented Decisions schema.
-- Cache and request limits (60 uncached requests/hour, 3 concurrent) are per server process. They are demo safeguards, not a distributed production quota. Configure a dedicated project budget before broad public live use.
-- Logos load through Google's favicon service; company domains are sent to that service. Initials appear if an image fails. Third-party links can change and need a final public-access check before submission.
+Implemented: 12-company seed journey, real Decisions calls, sourced inspector, filters, logo fallback, retry and JSON export. Directory extraction, avatars, QR submission and shared durable storage remain deferred. Arbitrary entity extraction would use Responses structured outputs rather than an invented Decisions schema.
+
+Cache and limits (60 uncached requests/hour, 3 concurrent) are per process, not distributed production quotas. Logos use Google's favicon service; company domains are sent to that service. Initials appear on load failure. Company names and logos are not endorsements.
 
 ## Deployment and submission
 
@@ -55,7 +55,7 @@ Deploy as a standard Next.js Node application. Set `OPENAI_API_KEY` in the host'
 
 Public source: [zetabytelab/ao-radar](https://github.com/zetabytelab/ao-radar). Production: [ao-radar-bice.vercel.app](https://ao-radar-bice.vercel.app), hosted in the ZetaFlow Vercel project `ao-radar`. This repository contains only the app, not the parent planning pack. `.env.example` is included; `.env.local`, `.next`, `node_modules` and `.vercel` are excluded.
 
-Freeze features by **15:30 London**, record by **16:15**, verify public links and submit by **16:40**, leaving 20 minutes before the event's 17:00 close. All 12 local live Decisions calls passed on 1 November 2026. The public deployment also passed all 12 live grades without authentication.
+Freeze features by **15:30 London**, record by **16:15**, verify public links and submit by **16:40**, leaving 20 minutes before the event's 17:00 close. All 12 live calls are checked locally and in production; repeat after evidence changes.
 
 See [DEMO.md](DEMO.md) for a <90-second walkthrough and [CODEX.md](CODEX.md) for concrete Codex contributions.
 
