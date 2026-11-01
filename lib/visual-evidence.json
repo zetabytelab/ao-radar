@@ -5,7 +5,8 @@
     "provider": "Browser capture",
     "captureNote": "Public page viewport; not an advertisement.",
     "socialLinks": [],
-    "founder": null
+    "founder": null,
+    "reviewNote": ""
   },
   {
     "cta": "Get started",
@@ -16,7 +17,8 @@
     "founder": {
       "name": "Ben Broca",
       "url": "https://polsia.com/deck"
-    }
+    },
+    "reviewNote": "Founder sources conflict: the index lists Ben Cera; the linked public pitch deck names Ben Broca. The deck identity is retained here pending reconciliation."
   },
   {
     "cta": "Start my business",
@@ -24,19 +26,104 @@
     "provider": "Browser capture",
     "captureNote": "Public page viewport; not an advertisement.",
     "socialLinks": [],
-    "founder": null
+    "founder": null,
+    "reviewNote": ""
   },
   {
-    "cta": "Book a Call",
+    "cta": "",
     "capturedAt": "2026-11-01",
-    "provider": "Browser capture",
-    "captureNote": "Site loading screen captured; text inspected separately.",
-    "socialLinks": [
-      "https://x.com/HyphenateAI",
-      "https://www.linkedin.com/company/hyphenateai",
-      "https://www.youtube.com/@hyphenateai"
-    ],
-    "founder": null
+    "provider": "Not captured",
+    "captureNote": "Website capture pending.",
+    "socialLinks": [],
+    "founder": {
+      "name": "Florian Jüngermann, Alfred Wahlforss",
+      "url": "https://autopilotindex.com/companies/listen-labs"
+    },
+    "reviewNote": ""
+  },
+  {
+    "cta": "",
+    "capturedAt": "2026-11-01",
+    "provider": "Not captured",
+    "captureNote": "Website capture pending.",
+    "socialLinks": [],
+    "founder": {
+      "name": "Andrew Pignanelli, Abhishyant Khare",
+      "url": "https://autopilotindex.com/companies/cofounder"
+    },
+    "reviewNote": ""
+  },
+  {
+    "cta": "",
+    "capturedAt": "2026-11-01",
+    "provider": "Not captured",
+    "captureNote": "Website capture pending.",
+    "socialLinks": [],
+    "founder": {
+      "name": "Salman Avestimehr, Aiden He",
+      "url": "https://autopilotindex.com/companies/chainopera-ai"
+    },
+    "reviewNote": ""
+  },
+  {
+    "cta": "",
+    "capturedAt": "2026-11-01",
+    "provider": "Not captured",
+    "captureNote": "Website capture pending.",
+    "socialLinks": [],
+    "founder": {
+      "name": "Filip Kozera, Robert Chandler",
+      "url": "https://autopilotindex.com/companies/wordware"
+    },
+    "reviewNote": ""
+  },
+  {
+    "cta": "",
+    "capturedAt": "2026-11-01",
+    "provider": "Not captured",
+    "captureNote": "Website capture pending.",
+    "socialLinks": [],
+    "founder": {
+      "name": "Marik Hazan",
+      "url": "https://autopilotindex.com/companies/feltsense"
+    },
+    "reviewNote": ""
+  },
+  {
+    "cta": "",
+    "capturedAt": "2026-11-01",
+    "provider": "Not captured",
+    "captureNote": "Website capture pending.",
+    "socialLinks": [],
+    "founder": {
+      "name": "Dominic Williams",
+      "url": "https://autopilotindex.com/companies/caffeine"
+    },
+    "reviewNote": ""
+  },
+  {
+    "cta": "",
+    "capturedAt": "2026-11-01",
+    "provider": "Not captured",
+    "captureNote": "Website capture pending.",
+    "socialLinks": [],
+    "founder": {
+      "name": "Chenglin Wu (Alex Wu)",
+      "url": "https://autopilotindex.com/companies/atoms"
+    },
+    "reviewNote": ""
+  },
+  {
+    "cta": "",
+    "capturedAt": "2026-11-01",
+    "provider": "Not captured",
+    "captureNote": "Website capture pending.",
+    "socialLinks": [],
+    "founder": {
+      "name": "Ross Mead, Braden McDorman",
+      "url": "https://autopilotindex.com/companies/semio"
+    },
+    "reviewNote": ""
   },
   {
     "cta": "Message me",
@@ -49,9 +136,10 @@
       "https://substack.com/@boardyboardman"
     ],
     "founder": {
-      "name": "Andrew D\u2019Souza",
+      "name": "Andrew D’Souza",
       "url": "https://www.boardy.ai/"
-    }
+    },
+    "reviewNote": ""
   },
   {
     "cta": "Start building",
@@ -62,7 +150,116 @@
       "https://x.com/base44",
       "https://www.linkedin.com/company/base44"
     ],
-    "founder": null
+    "founder": null,
+    "reviewNote": ""
+  },
+  {
+    "cta": "",
+    "capturedAt": "2026-11-01",
+    "provider": "Not captured",
+    "captureNote": "Website capture pending.",
+    "socialLinks": [],
+    "founder": {
+      "name": "David Holz",
+      "url": "https://autopilotindex.com/companies/midjourney"
+    },
+    "reviewNote": ""
+  },
+  {
+    "cta": "",
+    "capturedAt": "2026-11-01",
+    "provider": "Not captured",
+    "captureNote": "Website capture pending.",
+    "socialLinks": [],
+    "founder": {
+      "name": "Jaspar Carmichael-Jack",
+      "url": "https://autopilotindex.com/companies/artisan"
+    },
+    "reviewNote": ""
+  },
+  {
+    "cta": "",
+    "capturedAt": "2026-11-01",
+    "provider": "Not captured",
+    "captureNote": "Website capture pending.",
+    "socialLinks": [],
+    "founder": {
+      "name": "Flo Crivello",
+      "url": "https://autopilotindex.com/companies/lindy"
+    },
+    "reviewNote": ""
+  },
+  {
+    "cta": "",
+    "capturedAt": "2026-11-01",
+    "provider": "Not captured",
+    "captureNote": "Website capture pending.",
+    "socialLinks": [],
+    "founder": {
+      "name": "Matt Harpe, Mitch Troyanovsky",
+      "url": "https://autopilotindex.com/companies/basis"
+    },
+    "reviewNote": "Identity review needed: the linked usebasis.co page describes financial infrastructure and an AI financial advisor, while the directory record describes accounting agents. Grades use the directory summary."
+  },
+  {
+    "cta": "",
+    "capturedAt": "2026-11-01",
+    "provider": "Not captured",
+    "captureNote": "Website capture pending.",
+    "socialLinks": [],
+    "founder": {
+      "name": "Dara Ladjevardian, Sam Spelsberg",
+      "url": "https://autopilotindex.com/companies/delphi"
+    },
+    "reviewNote": ""
+  },
+  {
+    "cta": "",
+    "capturedAt": "2026-11-01",
+    "provider": "Not captured",
+    "captureNote": "Website capture pending.",
+    "socialLinks": [],
+    "founder": {
+      "name": "Tyllen Bicakcic",
+      "url": "https://autopilotindex.com/companies/payman"
+    },
+    "reviewNote": ""
+  },
+  {
+    "cta": "",
+    "capturedAt": "2026-11-01",
+    "provider": "Not captured",
+    "captureNote": "Website capture pending.",
+    "socialLinks": [],
+    "founder": {
+      "name": "Alexander Liteplo, Patricia Tani",
+      "url": "https://autopilotindex.com/companies/rentahuman"
+    },
+    "reviewNote": ""
+  },
+  {
+    "cta": "",
+    "capturedAt": "2026-11-01",
+    "provider": "Not captured",
+    "captureNote": "Website capture pending.",
+    "socialLinks": [],
+    "founder": {
+      "name": "Sean Dorje, Dennis Zax",
+      "url": "https://autopilotindex.com/companies/naive"
+    },
+    "reviewNote": ""
+  },
+  {
+    "cta": "",
+    "capturedAt": "2026-11-01",
+    "provider": "Not captured",
+    "captureNote": "Website capture pending.",
+    "socialLinks": [],
+    "founder": {
+      "name": "Pamir Ehsas, Stefan Mandaric",
+      "url": "https://autopilotindex.com/companies/moritz"
+    },
+    "reviewNote": ""
   },
   {
     "cta": "Get a Demo",
@@ -72,7 +269,32 @@
     "socialLinks": [
       "https://www.linkedin.com/company/gominimal"
     ],
-    "founder": null
+    "founder": null,
+    "reviewNote": ""
+  },
+  {
+    "cta": "",
+    "capturedAt": "2026-11-01",
+    "provider": "Not captured",
+    "captureNote": "Website capture pending.",
+    "socialLinks": [],
+    "founder": {
+      "name": "Felix Lösch, Niclas Heun",
+      "url": "https://autopilotindex.com/companies/lunavo"
+    },
+    "reviewNote": ""
+  },
+  {
+    "cta": "",
+    "capturedAt": "2026-11-01",
+    "provider": "Not captured",
+    "captureNote": "Website capture pending.",
+    "socialLinks": [],
+    "founder": {
+      "name": "Mark Pothen, Obinna Akahara",
+      "url": "https://autopilotindex.com/companies/beacon-health"
+    },
+    "reviewNote": ""
   },
   {
     "cta": "Start for free",
@@ -80,15 +302,8 @@
     "provider": "Browser capture",
     "captureNote": "Public page viewport; not an advertisement.",
     "socialLinks": [],
-    "founder": null
-  },
-  {
-    "cta": "Get Started",
-    "capturedAt": "2026-11-01",
-    "provider": "Browser capture",
-    "captureNote": "Public page viewport; not an advertisement.",
-    "socialLinks": [],
-    "founder": null
+    "founder": null,
+    "reviewNote": ""
   },
   {
     "cta": "Book a demo",
@@ -99,7 +314,8 @@
       "https://www.linkedin.com/company/fathom-ai-technologies",
       "https://www.instagram.com/fathomaitechnologies/"
     ],
-    "founder": null
+    "founder": null,
+    "reviewNote": ""
   },
   {
     "cta": "Start for free",
@@ -107,17 +323,73 @@
     "provider": "Browser capture",
     "captureNote": "Public page viewport; not an advertisement.",
     "socialLinks": [],
-    "founder": null
+    "founder": null,
+    "reviewNote": ""
   },
   {
-    "cta": "Watch live",
+    "cta": "",
+    "capturedAt": "2026-11-01",
+    "provider": "Not captured",
+    "captureNote": "Website capture pending.",
+    "socialLinks": [],
+    "founder": null,
+    "reviewNote": ""
+  },
+  {
+    "cta": "",
+    "capturedAt": "2026-11-01",
+    "provider": "Not captured",
+    "captureNote": "Website capture pending.",
+    "socialLinks": [],
+    "founder": {
+      "name": "Moritz Stephan, Oliver Brady, Carlo Kobe",
+      "url": "https://autopilotindex.com/companies/hone"
+    },
+    "reviewNote": ""
+  },
+  {
+    "cta": "",
+    "capturedAt": "2026-11-01",
+    "provider": "Not captured",
+    "captureNote": "Website capture pending.",
+    "socialLinks": [],
+    "founder": {
+      "name": "Bing Wu",
+      "url": "https://autopilotindex.com/companies/retell-ai"
+    },
+    "reviewNote": ""
+  },
+  {
+    "cta": "",
+    "capturedAt": "2026-11-01",
+    "provider": "Not captured",
+    "captureNote": "Website capture pending.",
+    "socialLinks": [],
+    "founder": {
+      "name": "Hasan Sukkar, Prabhav Jain",
+      "url": "https://autopilotindex.com/companies/11x"
+    },
+    "reviewNote": ""
+  },
+  {
+    "cta": "",
+    "capturedAt": "2026-11-01",
+    "provider": "Not captured",
+    "captureNote": "Website capture pending.",
+    "socialLinks": [],
+    "founder": {
+      "name": "Nikolay Vyahhi",
+      "url": "https://autopilotindex.com/companies/egbe"
+    },
+    "reviewNote": ""
+  },
+  {
+    "cta": "Get Started",
     "capturedAt": "2026-11-01",
     "provider": "Browser capture",
     "captureNote": "Public page viewport; not an advertisement.",
-    "socialLinks": [
-      "https://x.com/moltcorporation",
-      "https://instagram.com/moltcorp"
-    ],
-    "founder": null
+    "socialLinks": [],
+    "founder": null,
+    "reviewNote": ""
   }
 ]

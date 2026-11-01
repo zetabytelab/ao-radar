@@ -26,20 +26,272 @@
     "founderNames": []
   },
   "3": {
-    "url": "https://hyphenate.ai",
-    "capturedAt": "2026-11-01T13:30:17.123Z",
+    "url": "https://listenlabs.ai",
+    "capturedAt": "2026-11-01T14:40:41.451Z",
     "provider": "Context.dev",
     "screenshot": true,
-    "headline": "Finance that runs itself, so you can sprint ahead.",
+    "headline": "What people think, why they think it, and what to do about it. From real, human interviews.",
     "ctas": [
-      "Book a Call",
-      "Watch Video",
-      "Learn More"
+      "Demo",
+      "Join us at an event"
+    ],
+    "socialLinks": [],
+    "founderNames": []
+  },
+  "4": {
+    "url": "https://cofounder.co",
+    "capturedAt": "2026-11-01T14:40:48.227Z",
+    "provider": "Context.dev",
+    "screenshot": true,
+    "headline": "Cofounder lets you run an entire company with AI",
+    "ctas": [
+      "Run a company",
+      "Start in Cofounder",
+      "Put the guide to work"
+    ],
+    "socialLinks": [],
+    "founderNames": []
+  },
+  "5": {
+    "url": "https://chainopera.ai",
+    "capturedAt": "2026-11-01T14:41:02.642Z",
+    "provider": "Context.dev",
+    "screenshot": true,
+    "headline": "ChainOpera AI",
+    "ctas": [
+      "AI Terminal App",
+      "Agent Platform",
+      "Model and GPU Platform"
+    ],
+    "socialLinks": [],
+    "founderNames": [
+      "Prof. Salman Avestimehr",
+      "Dr. Aiden Chaoyang He"
+    ]
+  },
+  "6": {
+    "url": "https://wordware.ai",
+    "capturedAt": "2026-11-01T14:41:11.167Z",
+    "provider": "Context.dev",
+    "screenshot": true,
+    "headline": "Building the future of work, with",
+    "ctas": [
+      "Get Sauna",
+      "apply",
+      "Read More"
+    ],
+    "socialLinks": [],
+    "founderNames": []
+  },
+  "7": {
+    "url": "https://feltsense.com",
+    "capturedAt": "2026-11-01T14:41:16.151Z",
+    "provider": "Context.dev",
+    "screenshot": true,
+    "headline": "We build agentic founders.",
+    "ctas": [
+      "See the founders",
+      "Careers"
+    ],
+    "socialLinks": [],
+    "founderNames": []
+  },
+  "8": {
+    "url": "https://caffeine.ai",
+    "capturedAt": "2026-11-01T14:41:22.266Z",
+    "provider": "Context.dev",
+    "screenshot": true,
+    "headline": "Chat to build appson the Internet Computer.",
+    "ctas": [
+      "Join",
+      "Start building",
+      "Learn about the Internet Computer"
     ],
     "socialLinks": [],
     "founderNames": []
   },
   "9": {
+    "url": "https://atoms.dev",
+    "capturedAt": "2026-11-01T14:41:30.576Z",
+    "provider": "Context.dev",
+    "screenshot": true,
+    "headline": "Turn ideas into products that sell",
+    "ctas": [
+      "Start",
+      "Try Now",
+      "Get Started"
+    ],
+    "socialLinks": [],
+    "founderNames": []
+  },
+  "10": {
+    "url": "https://autopilotindex.com/companies/semio",
+    "capturedAt": "2026-11-01T14:41:34.758Z",
+    "provider": "Context.dev",
+    "screenshot": true,
+    "headline": "Semio",
+    "ctas": [],
+    "socialLinks": [],
+    "founderNames": [
+      "Ross Mead",
+      "Braden McDorman"
+    ]
+  },
+  "13": {
+    "url": "https://midjourney.com",
+    "capturedAt": "2026-11-01T14:41:45.384Z",
+    "provider": "Context.dev",
+    "screenshot": true,
+    "headline": "Midjourney",
+    "ctas": [
+      "Sign up",
+      "Explore"
+    ],
+    "socialLinks": [],
+    "founderNames": []
+  },
+  "14": {
+    "url": "https://artisan.co",
+    "capturedAt": "2026-11-01T14:41:52.066Z",
+    "provider": "Context.dev",
+    "screenshot": true,
+    "headline": "The AI BDR that runs in your stack, alongside your team",
+    "ctas": [
+      "Get started",
+      "Get a demo",
+      "Login"
+    ],
+    "socialLinks": [],
+    "founderNames": []
+  },
+  "15": {
+    "url": "https://lindy.ai",
+    "capturedAt": "2026-11-01T14:42:02.270Z",
+    "provider": "Context.dev",
+    "screenshot": true,
+    "headline": "Hire Lindy, get it done.",
+    "ctas": [
+      "Try for free",
+      "Book a demo",
+      "See every role"
+    ],
+    "socialLinks": [],
+    "founderNames": []
+  },
+  "16": {
+    "url": "https://usebasis.co",
+    "capturedAt": "2026-11-01T14:42:07.702Z",
+    "provider": "Context.dev",
+    "screenshot": true,
+    "headline": "The financial system was built for humans operating software. Now it must enable humans and intelligent machines to operate together.",
+    "ctas": [
+      "Our AI-powered financial advisor."
+    ],
+    "socialLinks": [],
+    "founderNames": []
+  },
+  "17": {
+    "url": "https://delphi.ai",
+    "capturedAt": "2026-11-01T14:42:17.585Z",
+    "provider": "Context.dev",
+    "screenshot": true,
+    "headline": "Find people who've been there and ask for their advice",
+    "ctas": [
+      "Create Your Delphi",
+      "Discover"
+    ],
+    "socialLinks": [],
+    "founderNames": []
+  },
+  "18": {
+    "url": "https://paymanai.com",
+    "capturedAt": "2026-11-01T14:42:23.204Z",
+    "provider": "Context.dev",
+    "screenshot": true,
+    "headline": "We deploy AI agents that handle money.",
+    "ctas": [
+      "Schedule Demo",
+      "Request Demo",
+      "Download the Agentic Banking Guide"
+    ],
+    "socialLinks": [],
+    "founderNames": []
+  },
+  "19": {
+    "url": "https://rentahuman.ai",
+    "capturedAt": "2026-11-01T14:42:30.152Z",
+    "provider": "Context.dev",
+    "screenshot": true,
+    "headline": "Get it done with a human",
+    "ctas": [
+      "Hire humans",
+      "Find work",
+      "For agents"
+    ],
+    "socialLinks": [],
+    "founderNames": []
+  },
+  "20": {
+    "url": "https://usenaive.ai",
+    "capturedAt": "2026-11-01T14:42:38.485Z",
+    "provider": "Context.dev",
+    "screenshot": true,
+    "headline": "The Frontier ofAutonomous Companies",
+    "ctas": [
+      "Deploy a Company",
+      "Open Studio",
+      "Get Started"
+    ],
+    "socialLinks": [],
+    "founderNames": []
+  },
+  "21": {
+    "url": "https://moritzlegal.com",
+    "capturedAt": "2026-11-01T14:42:46.080Z",
+    "provider": "Context.dev",
+    "screenshot": true,
+    "headline": "BigLaw Attorneys with Same-Day Turnaround",
+    "ctas": [
+      "Speak with Counsel",
+      "Submit a Matter",
+      "Read our story"
+    ],
+    "socialLinks": [],
+    "founderNames": [
+      "Daniel Dalla Vedova",
+      "Pamir Ehsas"
+    ]
+  },
+  "23": {
+    "url": "https://lunavo.ai",
+    "capturedAt": "2026-11-01T14:42:53.190Z",
+    "provider": "Context.dev",
+    "screenshot": true,
+    "headline": "More loads. Same team. Higher margin.",
+    "ctas": [
+      "Book a meeting"
+    ],
+    "socialLinks": [],
+    "founderNames": [
+      "Felix Lösch",
+      "Niclas Heun"
+    ]
+  },
+  "24": {
+    "url": "https://www.beaconhealth.ai",
+    "capturedAt": "2026-11-01T14:42:58.420Z",
+    "provider": "Context.dev",
+    "screenshot": true,
+    "headline": "AI-Native Healthcare Operations",
+    "ctas": [
+      "Book a Demo",
+      "Learn More",
+      "Start the Conversation"
+    ],
+    "socialLinks": [],
+    "founderNames": []
+  },
+  "26": {
     "url": "https://fathom-ai.net",
     "capturedAt": "2026-11-01T13:48:02.427Z",
     "provider": "Context.dev",
@@ -53,7 +305,7 @@
     "socialLinks": [],
     "founderNames": []
   },
-  "10": {
+  "27": {
     "url": "https://arcads.ai",
     "capturedAt": "2026-11-01T13:48:10.046Z",
     "provider": "Context.dev",
@@ -63,6 +315,71 @@
       "Create Your AI Ad",
       "Continue with Google",
       "Create your workflow"
+    ],
+    "socialLinks": [],
+    "founderNames": []
+  },
+  "28": {
+    "url": "https://autopilotindex.com/companies/swan-ai",
+    "capturedAt": "2026-11-01T14:43:03.562Z",
+    "provider": "Context.dev",
+    "screenshot": true,
+    "headline": "Swan AI",
+    "ctas": [],
+    "socialLinks": [],
+    "founderNames": []
+  },
+  "29": {
+    "url": "https://hone.com",
+    "capturedAt": "2026-11-01T14:43:10.004Z",
+    "provider": "Context.dev",
+    "screenshot": true,
+    "headline": "AI Engines that own outcomes",
+    "ctas": [
+      "Book a demo",
+      "Learn more",
+      "Start Your Engines"
+    ],
+    "socialLinks": [],
+    "founderNames": []
+  },
+  "30": {
+    "url": "https://www.retellai.com",
+    "capturedAt": "2026-11-01T14:43:36.733Z",
+    "provider": "Context.dev",
+    "screenshot": true,
+    "headline": "#1 AI Voice Agent Platform for Automating PHONE Calls",
+    "ctas": [
+      "Try Our Live Demo",
+      "See Customers",
+      "Try For Free"
+    ],
+    "socialLinks": [],
+    "founderNames": []
+  },
+  "31": {
+    "url": "https://11x.ai",
+    "capturedAt": "2026-11-01T14:43:43.882Z",
+    "provider": "Context.dev",
+    "screenshot": true,
+    "headline": "agents that drive revenue",
+    "ctas": [
+      "Get a Demo",
+      "Try Voice AI",
+      "Book a Demo"
+    ],
+    "socialLinks": [],
+    "founderNames": []
+  },
+  "32": {
+    "url": "https://egbe.ai",
+    "capturedAt": "2026-11-01T14:43:48.852Z",
+    "provider": "Context.dev",
+    "screenshot": true,
+    "headline": "Turn your idea into a business.",
+    "ctas": [
+      "Connect your agent",
+      "Book a demo"
     ],
     "socialLinks": [],
     "founderNames": []

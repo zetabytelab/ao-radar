@@ -10,10 +10,11 @@ export async function POST(request: Request) {
   const origin = request.headers.get('origin');
   if (origin && new URL(origin).host !== request.headers.get('host')) return Response.json({ error: 'Origin not allowed.' }, { status: 403 });
   if (!process.env.OPENAI_API_KEY) return Response.json({ error: 'Live grading needs OPENAI_API_KEY in the server environment. Sample mode is available.' }, { status: 503 });
-  let id: unknown;
-  try { const text = await request.text(); if (text.length > 200) throw new Error(); id = JSON.parse(text).id; } catch { return Response.json({ error: 'Send a seed company id.' }, { status: 400 }); }
+  let id: unknown; let name: unknown;
+  try { const text = await request.text(); if (text.length > 200) throw new Error(); const body = JSON.parse(text); id = body.id; name = body.name; } catch { return Response.json({ error: 'Send a seed company id.' }, { status: 400 }); }
   const company = companies.find(c => c.id === id);
   if (!company) return Response.json({ error: 'Unknown seed company.' }, { status: 400 });
+  if (name !== company.name) return Response.json({ error: 'The company catalogue changed. Refresh the page before grading.' }, { status: 409 });
   const saved = cache.get(company.id);
   if (saved && saved.until > Date.now()) return Response.json({ grade: saved.grade, cached: true });
   if (Date.now() > resetAt) { calls = 0; resetAt = Date.now() + 3600000; }

@@ -1,0 +1,616 @@
+{
+  "source": "https://autopilotindex.com/",
+  "importedAt": "2026-11-01T14:37:54.837832+00:00",
+  "count": 34,
+  "records": [
+    {
+      "name": "Andon Labs",
+      "websiteVerified": true,
+      "website": "https://andonlabs.com",
+      "profile": "https://autopilotindex.com/companies/andon-labs",
+      "proposition": [
+        "AI research and real-world business experiments.",
+        "Index summary of the positioning; not an independent finding.",
+        "AI research company co-founded by Lukas Petersson and Axel Backlund. Studies agent behavior through simulations including Vending-Bench and real-world deployments including Project Vend with Anthropic, Andon Market, Andon Cafe and Andon FM. Its platform is Pion, listed in the tools directory. These experiments do not establish that the research company itself operates autonomously. Checked September 15, 2026; company revenue, total funding and current headcount are not established in this record. Provisional L3, grade C, added October 17, 2026 from press and company pages: Luna, an AI agent, has run Andon Market in San Francisco since April 10, 2026, but Andon Labs monitors every Slack message and overrules decisions, so the L4 test is not met. Treat it as an experiment and an L3 candidate, not a graded autonomous company."
+      ],
+      "humanInvolvement": [
+        "People perform physical work and support deployments. The lab itself has no assessed autonomy level, and ongoing intervention hours are not established."
+      ],
+      "headcount": "Not reported",
+      "founders": [
+        "Lukas Petersson",
+        "Axel Backlund"
+      ]
+    },
+    {
+      "name": "Polsia",
+      "websiteVerified": true,
+      "website": "https://polsia.com",
+      "profile": "https://autopilotindex.com/companies/polsia",
+      "proposition": [
+        "The terms describe planning, content, outreach, advertising and infrastructure provisioning, with scheduled operations following general authorization."
+      ],
+      "humanInvolvement": [
+        "Users must review outputs, monitor spending, configure permissions and supervise actions. Scheduled execution can proceed without approval on every run."
+      ],
+      "headcount": "1 founder; zero employees reported",
+      "founders": [
+        "Ben Cera"
+      ]
+    },
+    {
+      "name": "Nanocorp",
+      "websiteVerified": true,
+      "website": "https://www.nanocorp.so",
+      "profile": "https://autopilotindex.com/companies/nanocorp",
+      "proposition": [
+        "V3 advertises app creation, database, Stripe, domains, prospecting, customer email, Meta ads and daily reports."
+      ],
+      "humanInvolvement": [
+        "A founder completes the founding interview, starts the business, sets its mission and redirects the agent through chat. Hands-off reliability is not independently measured."
+      ],
+      "headcount": "1",
+      "founders": [
+        "Pierre-Louis Biojout"
+      ]
+    },
+    {
+      "name": "Listen Labs",
+      "websiteVerified": true,
+      "website": "https://listenlabs.ai",
+      "profile": "https://autopilotindex.com/companies/listen-labs",
+      "proposition": [
+        "Customer research, end to end, moderated by an AI.",
+        "Index summary of the positioning; not an independent finding.",
+        "Market-research company whose AI writes the survey questions, interviews customers over audio or video with follow-ups, and packages the conversations into reports and slide decks. Named customers include Anthropic, Microsoft, Cognition and Sweetgreen. Watchlist rather than index: the company also employs senior researchers, so the AI moderates a function rather than running the business. Reached roughly $30M annualised revenue within three years of founding, walked away from a signed $125M Series C term sheet at a $1.5bn valuation, and entered acquisition discussions with Salesforce at about $2bn. Those talks were not finalised and may not produce a deal."
+      ],
+      "humanInvolvement": [
+        "Ongoing human hours, approval frequency and intervention rates have not been measured in this record. Reported team size describes the company, not the labor required to operate a customer business."
+      ],
+      "headcount": "undisclosed",
+      "founders": [
+        "Florian Jüngermann",
+        "Alfred Wahlforss"
+      ]
+    },
+    {
+      "name": "Cofounder",
+      "websiteVerified": true,
+      "website": "https://cofounder.co",
+      "profile": "https://autopilotindex.com/companies/cofounder",
+      "proposition": [
+        "Advertises coordinated engineering, marketing, prospect research, email outreach, analytics and recurring work, with company context shared across agents."
+      ],
+      "humanInvolvement": [
+        "The site says shipping requires approval and marks company-name and domain choices as user tasks; incorporation and bank setup require approval."
+      ],
+      "headcount": "Not reported",
+      "founders": [
+        "Andrew Pignanelli",
+        "Abhishyant Khare"
+      ]
+    },
+    {
+      "name": "ChainOpera AI",
+      "websiteVerified": true,
+      "website": "https://chainopera.ai",
+      "profile": "https://autopilotindex.com/companies/chainopera-ai",
+      "proposition": [
+        "A decentralized 'full-stack super agent AI economy' — a community-owned OpenAI alternative.",
+        "Index summary of the positioning; not an independent finding.",
+        "Full-stack decentralized AI platform: a consumer AI Terminal, an agent-building platform, a decentralized model & GPU network, and an AI-native L1 blockchain with the $COAI token. Recently added an AI Trading Arena with autonomous trading agents. The crypto outlier of the cohort."
+      ],
+      "humanInvolvement": [
+        "Ongoing human hours, approval frequency and intervention rates have not been measured in this record. Reported team size describes the company, not the labor required to operate a customer business."
+      ],
+      "headcount": "40+ reported team",
+      "founders": [
+        "Salman Avestimehr",
+        "Aiden He"
+      ]
+    },
+    {
+      "name": "Wordware (Sauna)",
+      "websiteVerified": true,
+      "website": "https://wordware.ai",
+      "profile": "https://autopilotindex.com/companies/wordware",
+      "proposition": [
+        "Wordware's Sauna advertises persistent context, scheduled cloud work, connected apps and software creation, reachable through web, iOS, messaging, Slack and email."
+      ],
+      "humanInvolvement": [
+        "Users connect tools, supply context and configure autonomy from suggested actions to independent execution. Sharing and permissions remain user controlled."
+      ],
+      "headcount": "15",
+      "founders": [
+        "Filip Kozera",
+        "Robert Chandler"
+      ]
+    },
+    {
+      "name": "Feltsense",
+      "websiteVerified": true,
+      "website": "https://feltsense.com",
+      "profile": "https://autopilotindex.com/companies/feltsense",
+      "proposition": [
+        "Advertises agents that identify demand, build products with Stripe, run acquisition and iterate; names Gutcheck as a beta product."
+      ],
+      "humanInvolvement": [
+        "The published workflow explicitly assigns Stripe verification and entity registration to a human. The company also says account setup and regulatory gaps need people."
+      ],
+      "headcount": "Not reported",
+      "founders": [
+        "Marik Hazan"
+      ]
+    },
+    {
+      "name": "Caffeine",
+      "websiteVerified": true,
+      "website": "https://caffeine.ai",
+      "profile": "https://autopilotindex.com/companies/caffeine",
+      "proposition": [
+        "The current site focuses on building internal tools, asking questions across apps, changing workflows conversationally and exporting software to a chosen hosting environment."
+      ],
+      "humanInvolvement": [
+        "Users describe the software, ask questions and direct changes. No measured customer-business approval or intervention rate is published on the reviewed pages."
+      ],
+      "headcount": "Not reported",
+      "founders": [
+        "Dominic Williams"
+      ]
+    },
+    {
+      "name": "Atoms",
+      "websiteVerified": true,
+      "website": "https://atoms.dev",
+      "profile": "https://autopilotindex.com/companies/atoms",
+      "proposition": [
+        "The advertised team covers demand research, architecture, product planning, app development, SEO, Google Ads and analytics."
+      ],
+      "humanInvolvement": [
+        "The founder decides direction. Team leader Mike coordinates execution and requests approval; the page does not quantify intervention frequency."
+      ],
+      "headcount": "Not reported",
+      "founders": [
+        "Chenglin Wu (Alex Wu)"
+      ]
+    },
+    {
+      "name": "Semio",
+      "websiteVerified": false,
+      "website": "https://autopilotindex.com/companies/semio",
+      "profile": "https://autopilotindex.com/companies/semio",
+      "proposition": [
+        "Natural language is the user interface of robots.",
+        "Index summary of the positioning; not an independent finding.",
+        "Robotics-software company developing tools for natural human–robot interaction. Semio Community identifies Ross Mead as founder and CEO. The historical semio.ai domain served unrelated gambling content during September 2026 research, so its website link is withheld pending verification. Current commercial availability and funding remain unverified."
+      ],
+      "humanInvolvement": [
+        "Ongoing human hours, approval frequency and intervention rates have not been measured in this record. Reported team size describes the company, not the labor required to operate a customer business."
+      ],
+      "headcount": "7",
+      "founders": [
+        "Ross Mead",
+        "Braden McDorman"
+      ]
+    },
+    {
+      "name": "Boardy",
+      "websiteVerified": true,
+      "website": "https://boardy.ai",
+      "profile": "https://autopilotindex.com/companies/boardy",
+      "proposition": [
+        "Advertises matching introductions, calendar coordination, follow-up and meeting participation across Google Meet, Zoom and Teams."
+      ],
+      "humanInvolvement": [
+        "Users provide context and calendar access; both participants opt in before an introduction. Meetings and commercial decisions still involve people."
+      ],
+      "headcount": "Not reported",
+      "founders": [
+        "Andrew D'Souza",
+        "Matt Stein, Shen Sivananthan, Ankur & Abhinav Boyed"
+      ]
+    },
+    {
+      "name": "Base44",
+      "websiteVerified": true,
+      "website": "https://base44.com",
+      "profile": "https://autopilotindex.com/companies/base44",
+      "proposition": [
+        "App creation includes backend, authentication and hosting. Superagents additionally advertise scheduled tasks, event triggers, outreach and reports across connected tools."
+      ],
+      "humanInvolvement": [
+        "The user defines the job and explicitly grants tool permissions. The Superagents page does not establish the ongoing review and repair rate."
+      ],
+      "headcount": "1 founder + 8 employees",
+      "founders": [
+        "Maor Shlomo"
+      ]
+    },
+    {
+      "name": "Midjourney",
+      "websiteVerified": true,
+      "website": "https://midjourney.com",
+      "profile": "https://autopilotindex.com/companies/midjourney",
+      "proposition": [
+        "The lean-AI benchmark: $8M+ revenue per employee.",
+        "Index summary of the positioning; not an independent finding.",
+        "Subscription image/video generation, self-funded since day one. Not 'autopilot'-positioned, but it anchors the extreme of the category's core metric — roughly $500M in revenue with ~60 people (headcount estimates range 60–190 depending on the database)."
+      ],
+      "humanInvolvement": [
+        "Ongoing human hours, approval frequency and intervention rates have not been measured in this record. Reported team size describes the company, not the labor required to operate a customer business."
+      ],
+      "headcount": "60",
+      "founders": [
+        "David Holz"
+      ]
+    },
+    {
+      "name": "Artisan",
+      "websiteVerified": true,
+      "website": "https://artisan.co",
+      "profile": "https://autopilotindex.com/companies/artisan",
+      "proposition": [
+        "Autonomous AI BDR 'Ava' runs outbound sales end-to-end.",
+        "Index summary of the positioning; not an independent finding.",
+        "Ava prospects from a 300M+ contact database, writes and sequences email, and books meetings autonomously — with Aaron (inbound) and Aria (meetings) on the roadmap. Famous for the 'Stop Hiring Humans' billboard campaign. YC W24."
+      ],
+      "humanInvolvement": [
+        "Ongoing human hours, approval frequency and intervention rates have not been measured in this record. Reported team size describes the company, not the labor required to operate a customer business."
+      ],
+      "headcount": "35",
+      "founders": [
+        "Jaspar Carmichael-Jack"
+      ]
+    },
+    {
+      "name": "Lindy",
+      "websiteVerified": true,
+      "website": "https://lindy.ai",
+      "profile": "https://autopilotindex.com/companies/lindy",
+      "proposition": [
+        "The current offering includes Slack tasks, scheduled routines, inbox and meeting work, computer use and MCP-connected tools."
+      ],
+      "humanInvolvement": [
+        "The current FAQ says actions with outside impact wait for approval, including sending email and updating tickets; approved read-only lookups do not. Do not assume earlier workflow behavior applies to every current product."
+      ],
+      "headcount": "52",
+      "founders": [
+        "Flo Crivello"
+      ]
+    },
+    {
+      "name": "Basis",
+      "websiteVerified": true,
+      "website": "https://usebasis.co",
+      "profile": "https://autopilotindex.com/companies/basis",
+      "proposition": [
+        "Agents that complete accounting, tax, and audit workflows in production, not copilot suggestions.",
+        "Index summary of the positioning; not an independent finding.",
+        "Deploys autonomous agents that finish accounting workflows end-to-end at real firms — used by ~30% of the top 25 US accounting firms. Became a unicorn in February 2026. The strongest signal that agent-run operations are landing in conservative industries."
+      ],
+      "humanInvolvement": [
+        "Ongoing human hours, approval frequency and intervention rates have not been measured in this record. Reported team size describes the company, not the labor required to operate a customer business."
+      ],
+      "headcount": "76",
+      "founders": [
+        "Matt Harpe",
+        "Mitch Troyanovsky"
+      ]
+    },
+    {
+      "name": "Delphi",
+      "websiteVerified": true,
+      "website": "https://delphi.ai",
+      "profile": "https://autopilotindex.com/companies/delphi",
+      "proposition": [
+        "Your expertise, monetized 24/7 — a personal-brand business on autopilot.",
+        "Index summary of the positioning; not an independent finding.",
+        "Turns an expert's content into an interactive AI clone (text/voice/video) that handles audience conversations, coaching, and monetization around the clock. 2,000+ experts live; backed by Sequoia."
+      ],
+      "humanInvolvement": [
+        "Ongoing human hours, approval frequency and intervention rates have not been measured in this record. Reported team size describes the company, not the labor required to operate a customer business."
+      ],
+      "headcount": "37",
+      "founders": [
+        "Dara Ladjevardian",
+        "Sam Spelsberg"
+      ]
+    },
+    {
+      "name": "Payman",
+      "websiteVerified": true,
+      "website": "https://paymanai.com",
+      "profile": "https://autopilotindex.com/companies/payman",
+      "proposition": [
+        "Agentic banking: controlled money access so agents can hire and pay humans.",
+        "Index summary of the positioning; not an independent finding.",
+        "Payments and banking infrastructure that gives AI agents controlled access to money — so they can hire and pay humans and other agents (fiat, bank, or crypto). The financial rails that make fully autonomous businesses possible. Backed by Visa."
+      ],
+      "humanInvolvement": [
+        "Ongoing human hours, approval frequency and intervention rates have not been measured in this record. Reported team size describes the company, not the labor required to operate a customer business."
+      ],
+      "headcount": "15",
+      "founders": [
+        "Tyllen Bicakcic"
+      ]
+    },
+    {
+      "name": "RentAHuman",
+      "websiteVerified": true,
+      "website": "https://rentahuman.ai",
+      "profile": "https://autopilotindex.com/companies/rentahuman",
+      "proposition": [
+        "Humans as API endpoints — hands and feet for the agent economy.",
+        "Index summary of the positioning; not an independent finding.",
+        "The inverse of everything else on this list: instead of humans deploying AI agents, AI agents hire humans for physical-world tasks — package pickups, in-store photos, event staffing, robotics training data. Agents post escrow-funded bounties via MCP or REST API and pay out in stablecoins. Launched February 2026 by Alexander Liteplo and went instantly viral (Wired, Forbes, Futurism, Nature): 73K humans registered within two days, 500K+ claimed within two weeks. Early reporting noted far fewer visible worker profiles than registered users — traction claims are self-reported."
+      ],
+      "humanInvolvement": [
+        "Ongoing human hours, approval frequency and intervention rates have not been measured in this record. Reported team size describes the company, not the labor required to operate a customer business."
+      ],
+      "headcount": "3",
+      "founders": [
+        "Alexander Liteplo",
+        "Patricia Tani"
+      ]
+    },
+    {
+      "name": "Naïve",
+      "websiteVerified": true,
+      "website": "https://usenaive.ai",
+      "profile": "https://autopilotindex.com/companies/naive",
+      "proposition": [
+        "Coding agents build the app — Naïve builds the company.",
+        "Index summary of the positioning; not an independent finding.",
+        "Palo Alto AI lab building the operating stack agents need to run a real business: incorporation, virtual payment cards, email inboxes, phone numbers, compute, model routing, and memory — provisioned behind a single config file and unified API, with governance and budget controls. A coding agent writes the config; Naïve stands up the company around it. Founded by Sean Dorje and Dennis Zax, 20-year-old Berkeley dropouts who have built together since 14 and sold their first startup (ezML) as teenagers. Claims 30,000+ developer customers and sales up more than tenfold in six months."
+      ],
+      "humanInvolvement": [
+        "Ongoing human hours, approval frequency and intervention rates have not been measured in this record. Reported team size describes the company, not the labor required to operate a customer business."
+      ],
+      "headcount": "Not reported",
+      "founders": [
+        "Sean Dorje",
+        "Dennis Zax"
+      ]
+    },
+    {
+      "name": "Moritz",
+      "websiteVerified": true,
+      "website": "https://moritzlegal.com",
+      "profile": "https://autopilotindex.com/companies/moritz",
+      "proposition": [
+        "AI does 80% of the work, so you pay elite lawyers for the final 20%.",
+        "Index summary of the positioning; not an independent finding.",
+        "Oslo-based AI-native law firm (YC W26): agents draft contracts and execute deals, ~10 Harvard/Oxford-trained lawyers review the final 20%, at flat fees ($750–$2,500/doc) with ~4-hour turnarounds. Founded by Pamir Ehsas (former outside counsel to OpenAI and Google) and Stefan Mandaric (AI engineer, ex-MIT Fulbright). The flagship of the 2026 wave of AI-native professional-services firms — the agents do the firm's own billable work."
+      ],
+      "humanInvolvement": [
+        "Ongoing human hours, approval frequency and intervention rates have not been measured in this record. Reported team size describes the company, not the labor required to operate a customer business."
+      ],
+      "headcount": "10",
+      "founders": [
+        "Pamir Ehsas",
+        "Stefan Mandaric"
+      ]
+    },
+    {
+      "name": "Minimal",
+      "websiteVerified": true,
+      "website": "https://gominimal.ai",
+      "profile": "https://autopilotindex.com/companies/minimal-ai",
+      "proposition": [
+        "Three humans, agents resolve up to 90% of support tickets.",
+        "Index summary of the positioning; not an independent finding.",
+        "Amsterdam-based YC S25 startup whose agents autonomously resolve e-commerce support tickets — up to 90% automation (93% in its top case study) — on a 3-person team. Founded by Niek Hogenboom (CEO) and Titus Ex (CTO, ex-ML engineer at Uber). Reports crossing 7-figure ARR (company-stated)."
+      ],
+      "humanInvolvement": [
+        "Ongoing human hours, approval frequency and intervention rates have not been measured in this record. Reported team size describes the company, not the labor required to operate a customer business."
+      ],
+      "headcount": "3",
+      "founders": [
+        "Niek Hogenboom",
+        "Titus Ex"
+      ]
+    },
+    {
+      "name": "Lunavo",
+      "websiteVerified": true,
+      "website": "https://lunavo.ai",
+      "profile": "https://autopilotindex.com/companies/lunavo",
+      "proposition": [
+        "85% of repetitive back-office logistics automated within 60 days.",
+        "Index summary of the positioning; not an independent finding.",
+        "German YC Fall-2025 startup (2 people): an 'AI workforce' for freight forwarders in the DACH region — claims 85% of repetitive carrier back-office work automated within 60 days, 11-second median email replies, and 3× loads per dispatcher. Founded by Felix Lösch (ex-McKinsey) and Niclas Heun (ex-Siemens AI researcher). Backed by YC's standard deal plus Germany's EXIST founder grant — no external seed round yet."
+      ],
+      "humanInvolvement": [
+        "Ongoing human hours, approval frequency and intervention rates have not been measured in this record. Reported team size describes the company, not the labor required to operate a customer business."
+      ],
+      "headcount": "2",
+      "founders": [
+        "Felix Lösch",
+        "Niclas Heun"
+      ]
+    },
+    {
+      "name": "Beacon Health",
+      "websiteVerified": true,
+      "website": "https://www.beaconhealth.ai",
+      "profile": "https://autopilotindex.com/companies/beacon-health",
+      "proposition": [
+        "Agents work inside the EHR: prior auth, referrals, screenings, risk adjustment.",
+        "Index summary of the positioning; not an independent finding.",
+        "YC W26 startup (2 people, SF): 'AI employees' for value-based primary care — agents work inside EHRs (Epic, Athena, eCW, Cerner) closing quality gaps, running prior authorizations, referrals and patient outreach. Live with an independent physician association supporting 40,000 patients. Founded by Mark Pothen (CEO) and Obinna Akahara (CTO). Not to be confused with Beacon Health System, the legacy Indiana hospital network."
+      ],
+      "humanInvolvement": [
+        "Ongoing human hours, approval frequency and intervention rates have not been measured in this record. Reported team size describes the company, not the labor required to operate a customer business."
+      ],
+      "headcount": "2",
+      "founders": [
+        "Mark Pothen",
+        "Obinna Akahara"
+      ]
+    },
+    {
+      "name": "Gamma",
+      "websiteVerified": true,
+      "website": "https://gamma.app",
+      "profile": "https://autopilotindex.com/companies/gamma",
+      "proposition": [
+        "Founder-reported ARR above $100M in November 2025; team counts differ by source and population.",
+        "Index summary of the positioning; not an independent finding.",
+        "AI-native presentation and content platform. Its November 10, 2025 founder announcement reports ARR above $100M, two years of profitability and 50 employees. Earlier secondary research recorded 52 humans; the observations have different population definitions and do not establish a headcount change. The announcement also reports a $68M Series B led by a16z at a $2.1B valuation. These are reported company metrics, not an independent financial or autonomy audit."
+      ],
+      "humanInvolvement": [
+        "Ongoing human hours, approval frequency and intervention rates have not been measured in this record. Reported team size describes the company, not the labor required to operate a customer business."
+      ],
+      "headcount": "50 employees (founder announcement)",
+      "founders": [
+        "Grant Lee"
+      ]
+    },
+    {
+      "name": "Fathom AI",
+      "websiteVerified": true,
+      "website": "https://fathom-ai.net",
+      "profile": "https://autopilotindex.com/companies/fathom-ai",
+      "proposition": [
+        "Three founders and 12 AI agents in operating roles; ~$300K ARR within 12 weeks of launch, per records reviewed by Fortune.",
+        "Index summary of the positioning; not an independent finding.",
+        "Territory-intelligence and sales-enablement platform for B2B field sales, starting in medical aesthetics (prospect scoring, zip-code account ranking, AI roleplay training). Fortune (18 April 2026) reports 12 AI agent co-workers in operational roles, including one that runs customer success and one that scans the competitive landscape every two hours and files a briefing; the three founders sell, manage finance and decide. Fortune reports ~$300K ARR within 12 weeks of launch, gross margin above 90% and cash-flow positive operations, according to records it reviewed. The ARR is an estimate, not audited; the company's $5M year-end ARR figure is a projection and is not shown as a metric."
+      ],
+      "humanInvolvement": [
+        "Ongoing human hours, approval frequency and intervention rates have not been measured in this record. Reported team size describes the company, not the labor required to operate a customer business."
+      ],
+      "headcount": "Not reported",
+      "founders": [
+        "Ben Hooten",
+        "Sam Brown",
+        "Dan Crump"
+      ]
+    },
+    {
+      "name": "Arcads",
+      "websiteVerified": true,
+      "website": "https://arcads.ai",
+      "profile": "https://autopilotindex.com/companies/arcads",
+      "proposition": [
+        "€12M ARR with 7 employees reported in December 2025; a lean AI company more than an agent-run one.",
+        "Index summary of the positioning; not an independent finding.",
+        "Generates UGC-style video ads, demos and try-ons with AI actors in 35+ languages for performance marketers. Maddyness (17 December 2025) reports €12M ARR with 7 employees, as reported by the company, alongside a €14M seed round led by Eurazeo. The founder has described 100+ internal Gumloop agents that automate competitor research, ad-copy rewriting and content, but the team still decides product and growth. Borderline: closer to a lean AI company than an agent-run one, treated like Gamma."
+      ],
+      "humanInvolvement": [
+        "Ongoing human hours, approval frequency and intervention rates have not been measured in this record. Reported team size describes the company, not the labor required to operate a customer business."
+      ],
+      "headcount": "Not reported",
+      "founders": []
+    },
+    {
+      "name": "Swan AI",
+      "websiteVerified": false,
+      "website": "https://autopilotindex.com/companies/swan-ai",
+      "profile": "https://autopilotindex.com/companies/swan-ai",
+      "proposition": [
+        "Three founders working with AI agents; $6M raised; revenue undisclosed.",
+        "Index summary of the positioning; not an independent finding.",
+        "Ctech (25 February 2026) reports that Swan AI is run by its three founders with AI agents, has 200+ customers as of the end of 2025, and raised a $6M round led by Link Ventures with Fresh Fund, Collider and Gandel Invest. Revenue has not been disclosed."
+      ],
+      "humanInvolvement": [
+        "Ongoing human hours, approval frequency and intervention rates have not been measured in this record. Reported team size describes the company, not the labor required to operate a customer business."
+      ],
+      "headcount": "Not reported",
+      "founders": []
+    },
+    {
+      "name": "Hone",
+      "websiteVerified": true,
+      "website": "https://hone.com",
+      "profile": "https://autopilotindex.com/companies/hone",
+      "proposition": [
+        "Agent vendor for enterprises; says it runs its own operations on its Engines.",
+        "Index summary of the positioning; not an independent finding.",
+        "San Francisco agent vendor that launched on 8 October 2026 with a $60M seed round led by Benchmark and co-led by Index Ventures (Hone, Index Ventures and Bloomberg); Bloomberg reports a $285M valuation according to Hone. Its product, Engines, is sold to enterprises: persistent agents assigned an outcome, which Hone says work in Slack, Teams and email and need human approval for sensitive actions. On the watchlist only because Hone's job ads say it runs its own operations on Engines. That claim comes from hiring copy, names no function already handed to an Engine and gives no metrics; the ads describe humans building each function first and handing it to an Engine later. Revenue is not disclosed. LinkedIn lists a self-reported 11-50 staff band, and Hone listed 12 open roles on 19 October 2026. Checked 19 October 2026."
+      ],
+      "humanInvolvement": [
+        "Ongoing human hours, approval frequency and intervention rates have not been measured in this record. Reported team size describes the company, not the labor required to operate a customer business."
+      ],
+      "headcount": "Not reported",
+      "founders": [
+        "Moritz Stephan",
+        "Oliver Brady",
+        "Carlo Kobe"
+      ]
+    },
+    {
+      "name": "Retell AI",
+      "websiteVerified": true,
+      "website": "https://www.retellai.com",
+      "profile": "https://autopilotindex.com/companies/retell-ai",
+      "proposition": [
+        "Voice-agent platform grown to ~$60M annualized on ~$5M raised.",
+        "Index summary of the positioning; not an independent finding.",
+        "YC W24 voice/phone-agent API platform (founder Bing Wu) — the infrastructure behind many production phone agents. Growth is corroborated (Sacra estimates ~$60M annualized by Apr 2026, +650% YoY, on only ~$5.1M raised), but its famous efficiency claim is not: headcount reports range from 21 (Lean AI Leaderboard, Nov 2025) to 50 (YC directory) to 143 (Tracxn, Jun 2026) — treat ARR-per-human as disputed."
+      ],
+      "humanInvolvement": [
+        "Ongoing human hours, approval frequency and intervention rates have not been measured in this record. Reported team size describes the company, not the labor required to operate a customer business."
+      ],
+      "headcount": "Disputed headcount",
+      "founders": [
+        "Bing Wu"
+      ]
+    },
+    {
+      "name": "11x",
+      "websiteVerified": true,
+      "website": "https://11x.ai",
+      "profile": "https://autopilotindex.com/companies/11x",
+      "proposition": [
+        "AI sales reps sold explicitly as headcount replacement.",
+        "Index summary of the positioning; not an independent finding.",
+        "Autonomous AI SDR 'Alice' and voice agent 'Julian' run outbound prospecting, email, and calls. Included as the category's cautionary tale: a TechCrunch investigation (March 2025) found it claimed customers it didn't have, with revenue and churn heavily disputed. Still operating under a new CEO."
+      ],
+      "humanInvolvement": [
+        "Ongoing human hours, approval frequency and intervention rates have not been measured in this record. Reported team size describes the company, not the labor required to operate a customer business."
+      ],
+      "headcount": "77",
+      "founders": [
+        "Hasan Sukkar",
+        "Prabhav Jain"
+      ]
+    },
+    {
+      "name": "Egbe",
+      "websiteVerified": true,
+      "website": "https://egbe.ai",
+      "profile": "https://autopilotindex.com/companies/egbe",
+      "proposition": [
+        "Autonomous companies, built by AI — an AI co-founder for solo founders.",
+        "Index summary of the positioning; not an independent finding.",
+        "Bring the idea; Egbe's AI co-founder takes it from research to a shipped product — Stripe checkout wired in, hosting/domains/email provisioned, then ads, cold email, and content on autopilot to find your first users, with the founder steering the big calls. Founded 2026 in Cambridge, MA by Nikolay Vyahhi (Stepik, Hyperskill), who told the MIT AI Summit in April he'd already spun up 100 AI-run e-commerce startups on a few Mac minis. In August it said GLM-5.2 from Z.ai now powers the majority of the co-founder's building workload, with requests and processed tokens up nearly 8× in a month (self-reported, one month post-launch) — a live test of frontier open models powering AI co-founders. Traction and customer claims are self-reported; no funding disclosed."
+      ],
+      "humanInvolvement": [
+        "Ongoing human hours, approval frequency and intervention rates have not been measured in this record. Reported team size describes the company, not the labor required to operate a customer business."
+      ],
+      "headcount": "5",
+      "founders": [
+        "Nikolay Vyahhi"
+      ]
+    },
+    {
+      "name": "Medvi",
+      "websiteVerified": true,
+      "website": "https://home.medvi.org/about-us",
+      "profile": "https://autopilotindex.com/companies/medvi",
+      "proposition": [
+        "Not an AI company — an old-fashioned middleman business turbocharged by AI.",
+        "Index summary of the positioning; not an independent finding.",
+        "Telehealth seller of GLP-1 weight-loss drugs, built in two months for $20,000 with a dozen-plus AI tools by Matthew Gallagher, working from home in LA. The category's verification outlier: the NYT audited its financials directly — $401M sales and 16.2% net profit in 2025 (Hims & Hers: 5.5% on 2,442 employees), tracking $1.8B for 2026. Bootstrapped, profitable, no valuation. The trick isn't just AI — it's 'telehealth-in-a-box' rails (CareValidate, OpenLoop Health) absorbing doctors, pharmacies, and compliance. Equally instructive as a cautionary tale: an FDA warning letter, an anti-spam class action over its affiliate marketers, and post-NYT reporting on fake AI doctor personas in its Meta ads. Sam Altman said the company won him a bet on when a near-one-person $1B business would appear."
+      ],
+      "humanInvolvement": [
+        "Ongoing human hours, approval frequency and intervention rates have not been measured in this record. Reported team size describes the company, not the labor required to operate a customer business."
+      ],
+      "headcount": "2",
+      "founders": [
+        "Matthew Gallagher",
+        "Elliot Gallagher"
+      ]
+    }
+  ]
+}
