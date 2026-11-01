@@ -1,0 +1,123 @@
+[
+  {
+    "cta": "Join waitlist",
+    "capturedAt": "2026-11-01",
+    "provider": "Browser capture",
+    "captureNote": "Public page viewport; not an advertisement.",
+    "socialLinks": [],
+    "founder": null
+  },
+  {
+    "cta": "Get started",
+    "capturedAt": "2026-11-01",
+    "provider": "Browser capture",
+    "captureNote": "Public page viewport; not an advertisement.",
+    "socialLinks": [],
+    "founder": {
+      "name": "Ben Broca",
+      "url": "https://polsia.com/deck"
+    }
+  },
+  {
+    "cta": "Start my business",
+    "capturedAt": "2026-11-01",
+    "provider": "Browser capture",
+    "captureNote": "Public page viewport; not an advertisement.",
+    "socialLinks": [],
+    "founder": null
+  },
+  {
+    "cta": "Book a Call",
+    "capturedAt": "2026-11-01",
+    "provider": "Browser capture",
+    "captureNote": "Site loading screen captured; text inspected separately.",
+    "socialLinks": [
+      "https://x.com/HyphenateAI",
+      "https://www.linkedin.com/company/hyphenateai",
+      "https://www.youtube.com/@hyphenateai"
+    ],
+    "founder": null
+  },
+  {
+    "cta": "Message me",
+    "capturedAt": "2026-11-01",
+    "provider": "Browser capture",
+    "captureNote": "Public page viewport; not an advertisement.",
+    "socialLinks": [
+      "https://x.com/boardyai",
+      "https://www.linkedin.com/company/boardy/",
+      "https://substack.com/@boardyboardman"
+    ],
+    "founder": {
+      "name": "Andrew D\u2019Souza",
+      "url": "https://www.boardy.ai/"
+    }
+  },
+  {
+    "cta": "Start building",
+    "capturedAt": "2026-11-01",
+    "provider": "Browser capture",
+    "captureNote": "Public page viewport; not an advertisement.",
+    "socialLinks": [
+      "https://x.com/base44",
+      "https://www.linkedin.com/company/base44"
+    ],
+    "founder": null
+  },
+  {
+    "cta": "Get a Demo",
+    "capturedAt": "2026-11-01",
+    "provider": "Browser capture",
+    "captureNote": "Public page viewport; not an advertisement.",
+    "socialLinks": [
+      "https://www.linkedin.com/company/gominimal"
+    ],
+    "founder": null
+  },
+  {
+    "cta": "Start for free",
+    "capturedAt": "2026-11-01",
+    "provider": "Browser capture",
+    "captureNote": "Public page viewport; not an advertisement.",
+    "socialLinks": [],
+    "founder": null
+  },
+  {
+    "cta": "Get Started",
+    "capturedAt": "2026-11-01",
+    "provider": "Browser capture",
+    "captureNote": "Public page viewport; not an advertisement.",
+    "socialLinks": [],
+    "founder": null
+  },
+  {
+    "cta": "Book a demo",
+    "capturedAt": "2026-11-01",
+    "provider": "Browser capture",
+    "captureNote": "Public page viewport; not an advertisement.",
+    "socialLinks": [
+      "https://www.linkedin.com/company/fathom-ai-technologies",
+      "https://www.instagram.com/fathomaitechnologies/"
+    ],
+    "founder": null
+  },
+  {
+    "cta": "Start for free",
+    "capturedAt": "2026-11-01",
+    "provider": "Browser capture",
+    "captureNote": "Public page viewport; not an advertisement.",
+    "socialLinks": [],
+    "founder": null
+  },
+  {
+    "cta": "Watch live",
+    "capturedAt": "2026-11-01",
+    "provider": "Browser capture",
+    "captureNote": "Public page viewport; not an advertisement.",
+    "socialLinks": [
+      "https://x.com/moltcorporation",
+      "https://instagram.com/moltcorp"
+    ],
+    "founder": null
+  }
+]

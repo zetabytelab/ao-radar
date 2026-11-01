@@ -1,0 +1,70 @@
+{
+  "0": {
+    "url": "https://andonlabs.com",
+    "capturedAt": "2026-11-01T13:30:10.303Z",
+    "provider": "Context.dev",
+    "screenshot": true,
+    "headline": "Autonomous organizations without humans in the loop",
+    "ctas": [
+      "Join waitlist",
+      "Read more",
+      "Apply now"
+    ],
+    "socialLinks": [],
+    "founderNames": []
+  },
+  "1": {
+    "url": "https://polsia.com",
+    "capturedAt": "2026-11-01T13:30:04.168Z",
+    "provider": "Context.dev",
+    "screenshot": true,
+    "headline": "AI That Runs Your Company While You Sleep",
+    "ctas": [
+      "Get Started"
+    ],
+    "socialLinks": [],
+    "founderNames": []
+  },
+  "3": {
+    "url": "https://hyphenate.ai",
+    "capturedAt": "2026-11-01T13:30:17.123Z",
+    "provider": "Context.dev",
+    "screenshot": true,
+    "headline": "Finance that runs itself, so you can sprint ahead.",
+    "ctas": [
+      "Book a Call",
+      "Watch Video",
+      "Learn More"
+    ],
+    "socialLinks": [],
+    "founderNames": []
+  },
+  "9": {
+    "url": "https://fathom-ai.net",
+    "capturedAt": "2026-11-01T13:48:02.427Z",
+    "provider": "Context.dev",
+    "screenshot": true,
+    "headline": "Know Who's Ready to Buy",
+    "ctas": [
+      "Read the article",
+      "Book a demo",
+      "Contact"
+    ],
+    "socialLinks": [],
+    "founderNames": []
+  },
+  "10": {
+    "url": "https://arcads.ai",
+    "capturedAt": "2026-11-01T13:48:10.046Z",
+    "provider": "Context.dev",
+    "screenshot": true,
+    "headline": "Create winning ads with AI",
+    "ctas": [
+      "Create Your AI Ad",
+      "Continue with Google",
+      "Create your workflow"
+    ],
+    "socialLinks": [],
+    "founderNames": []
+  }
+}

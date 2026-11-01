@@ -9,3 +9,9 @@ The previous note-only run was technically valid but insufficiently useful. Adde
 Desktop browser: Polsia → Agent crew → live operations claim; Hyphenate → Agent crew → product-only surprise; catch tray updates once per company. Phone at 390px: pond fits, fish are selectable, reveal controls scroll into view. Temporary viewport override reset. Prediction buttons and bulk grading cannot run concurrently. Sample/live mode switching resets the game. Production deployed at https://ao-radar-bice.vercel.app (app commit e458508). Browser verified Catch Polsia → Agent crew → real Decisions reveal, catch tray update and claim label. Public QR points to the same host /#fishing.
 
 Vivid theme: desktop and 390px phone layout visually reviewed; real Polsia catch revealed correctly with readable controls. Typography is self-hosted. Production build and lint pass.
+
+## Visual evidence cockpit and provider checks
+
+1 November, 13:45 London: local Evidence Lab browser scan completed 12/12 companies and displayed all 48 returned Decisions answers. Website wall has 12 attributed public-page PNGs; Context.dev refreshed Andon, Polsia, Hyphenate, Fathom and Arcads with real screenshots and extracted CTAs. People tab preserved Ben Broca's reviewed identity; a conflicting automatic extraction was excluded. Context founder names must occur in page text, and social URLs must match returned links.
+
+Firecrawl Alexandria key and provider contracts verified. Oriane basic Instagram profile lookups for Moltcorp and Fathom returned successful HTTP 200 empty-index results, zero credits. Ad-tool discovery failed HTTP 503 twice; active ad creatives remain unavailable. No raw provider records or personal contacts are published. These operator-side refreshes are separate from source-summary grading.
