@@ -33,6 +33,12 @@ Seed notes were supplied before the event. They are unverified, undated discover
 
 No revenue-per-person ranking: the seed lacks comparable dated financial/headcount sources. ARR figures in the original research are not displayed. No founder contact details or avatars are collected.
 
+## Verification
+
+All 12 local server-route requests returned valid live `gpt-6-luna` assessments on 1 November 2026. No fallback was used. Sparse seed notes produced Unknown for most autonomy/buyer answers and all evidence grades. This is a data limitation, not an API failure.
+
+Run `node scripts/check-live.mjs https://YOUR-DEMO-HOST` to repeat the 12-company check. This incurs 12 API requests on a cold cache; output contains grades only. Results are written to `/tmp/ao-radar-live-check.json`.
+
 ## Scope and limits
 
 - Implemented: seeded journey, server-side Decisions integration, sample walkthrough, search/filters, logo fallback, inspector, retry and JSON export.
@@ -45,9 +51,9 @@ No revenue-per-person ranking: the seed lacks comparable dated financial/headcou
 
 Deploy as a standard Next.js Node application. Set `OPENAI_API_KEY` in the host's encrypted server environment. Without it the public sample journey remains available. Verify the deployed link in a signed-out browser and ensure deployment protection is disabled for judges. Never put a secret in `NEXT_PUBLIC_*`, screenshots, exports or the video.
 
-Public source: [zetabytelab/ao-radar](https://github.com/zetabytelab/ao-radar). Hosting has not yet been configured. This repository contains only the app, not the parent planning pack. `.env.example` is included; `.env.local`, `.next`, `node_modules` and `.vercel` are excluded.
+Public source: [zetabytelab/ao-radar](https://github.com/zetabytelab/ao-radar). Production deployment is configured in the ZetaFlow Vercel project `ao-radar`. This repository contains only the app, not the parent planning pack. `.env.example` is included; `.env.local`, `.next`, `node_modules` and `.vercel` are excluded.
 
-Freeze features by **15:30 London**, record by **16:15**, verify public links and submit by **16:40**, leaving 20 minutes before the event's 17:00 close. Live API access is the first dependency to resolve. Do not add extraction or QR until all 12 live calls work.
+Freeze features by **15:30 London**, record by **16:15**, verify public links and submit by **16:40**, leaving 20 minutes before the event's 17:00 close. All 12 local live Decisions calls passed on 1 November 2026. Do not add extraction or QR until the public deployment also passes.
 
 See [DEMO.md](DEMO.md) for a <90-second walkthrough and [CODEX.md](CODEX.md) for concrete Codex contributions.
 
